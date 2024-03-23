@@ -45,7 +45,7 @@
                             (gender1.equals("Male") || gender1.equals("Female")) && (vnonv1.equals("Veg") || vnonv1.equals("Nonveg"))) {
                             
                             if (mystatement.executeUpdate() > 0) {
-                                out.print("<center>Roommate Added Successfully. Now you can login</center>");
+                                out.print("<center>Roommate Added Successfully. </center>");
                             }
                         } else {
                             out.print("Invalid input. Please check your data.");
